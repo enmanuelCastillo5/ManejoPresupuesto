@@ -19,6 +19,6 @@ namespace ManejoPresupuesto.Models
         public decimal Balance { get; set; }
 
         [StringLength(maximumLength: 1000)]
-        public string Despripcion { get; set; }
+        public string Descripcion { get; set; }
     }
 }
